@@ -1,7 +1,7 @@
 #Google BooksでAPIを叩く
 import requests as req
  
-ISBN = 9784873117386
+ISBN = input()
 response = req.get(
     'https://www.googleapis.com/books/v1/volumes',
     params={
